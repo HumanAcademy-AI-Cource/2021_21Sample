@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="uvc_camera" pkg="uvc_camera" type="uvc_camera_node" />
+  <node name="rqt_image_view" pkg="rqt_image_view" type="rqt_image_view" args="/image_raw" required="true" />
+</launch>

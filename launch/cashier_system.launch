@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="uvc_camera" pkg="uvc_camera" type="uvc_camera_node" required="true" />
+  <node name="cashier_system" pkg="cashier_system" type="cashier_system.py" required="true" output="screen"/>
+</launch>
